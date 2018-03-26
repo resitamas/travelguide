@@ -1,0 +1,70 @@
+{
+  "regions" : [
+    {
+      "name": "Americas",
+      "cities": [
+        {
+          "city": "New York",
+          "country": "United States of America",
+          "latitude": 40.7033121,
+          "longitude": -73.979681,
+          "image": "https://media-cdn.tripadvisor.com/media/photo-s/0e/9a/e3/1d/freedom-tower.jpg",
+          "info": "https://en.wikipedia.org/wiki/New_York_City"
+        },
+        {
+          "city": "Toronto",
+          "country": "Canada",
+          "latitude": 43.7182713,
+          "longitude": -79.3777061,
+          "image": "http://www.chelseatoronto.com/en/uploads/images/2015/08/toronto-downtown-view.jpg",
+          "info": "https://en.wikipedia.org/wiki/Toronto"
+        },
+        {
+          "city": "Sao Paulo",
+          "country": "Brazil",
+          "latitude": -23.6824124,
+          "longitude": -46.5952992,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZNpiBWQ-uaGU5HIJ0wvqwvx7_SjpyhqGQQi3LKnPhZ6FlJPtS",
+          "info": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo"
+        },
+        {
+          "city": "Buenos Aires",
+          "country": "Argentina",
+          "latitude": -34.6158533,
+          "longitude": -58.4332985,
+          "image": "http://www.menteargentina.com/blog/wp-content/uploads/2016/11/buenos-aires.jpg",
+          "info": "https://en.wikipedia.org/wiki/Buenos_Aires"
+        }
+      ]
+    },
+    {
+      "name" : "Europe",
+      "cities" : [
+        {
+          "city" : "Budapest",
+          "country" : "Hungary",
+          "latitude" : 47.4805856,
+          "longitude": 19.1303031,
+          "image": "https://www.worldatlas.com/r/w728-h425-c728x425/upload/b1/ff/c9/thinkstockphotos-473481530.jpg",
+          "info": "https://en.wikipedia.org/wiki/Budapest"
+        },
+        {
+          "city" : "Frankfurt",
+          "country" : "Germany",
+          "latitude" : 50.121212,
+          "longitude": 8.636563799999999,
+          "image": "http://hamptoninn3.hilton.com/resources/media/hp/FRACCHX/en_US/img/shared/full_page_image_gallery/main/HX_frankfurtsky001_29_425x303_FitToBoxSmallDimension_Center.jpg",
+          "info": "https://en.wikipedia.org/wiki/Frankfurt"
+        },
+        {
+          "city" : "London",
+          "country" : "United Kingdom",
+          "latitude" : 51.5286416,
+          "longitude": -0.1015987,
+          "image": "https://cdn.londonandpartners.com/assets/73295-640x360-london-skyline-ns.jpg",
+          "info": "https://en.wikipedia.org/wiki/London"
+        }
+      ]
+    }
+  ]
+}

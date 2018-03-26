@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/defaultPadding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cardImageHeight">
+
+        <ImageView
+            android:id="@+id/cityImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cardImageHeight"
+            android:src="@color/cardview_dark_background"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/defaultPadding"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cityName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City Name"
+                android:textStyle="bold"
+                android:textSize="@dimen/cityTextSize"
+                android:textColor="@color/colorPrimaryLight"/>
+
+            <TextView
+                android:id="@+id/countryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country Name"
+                android:textColor="@color/colorAccent"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:progressTint="@color/colorPrimaryLight"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
+
+

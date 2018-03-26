@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TravelGuide</string>
+    <string name="weatherTab">Weather</string>
+    <string name="infomrationTab">Info</string>
+    <string name="mapTab">Map</string>
+
+    <string name="pressure">pressure</string>
+    <string name="humidity">humidity</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

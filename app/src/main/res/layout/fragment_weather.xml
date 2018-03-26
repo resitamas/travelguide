@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/defaultMargin">
+
+    <ProgressBar
+        android:id="@+id/indeterminateBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weatherIconSize"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/weatherImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/defaultPadding"
+            />
+
+        <TextView
+            android:id="@+id/temp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/tempSize"
+            android:gravity="center"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/sky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/skyTextSize"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dividerHeight"
+        android:background="@color/colorDivider"
+        android:layout_marginRight="@dimen/defaultMarginWide"
+        android:layout_marginLeft="@dimen/defaultMarginWide"
+        android:layout_marginBottom="@dimen/defaultMargin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weatherRowSize"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/pressureText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/pressure"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/pressure"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weatherRowSize"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/humidityText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/humidity"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/humidity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardImageHeight">200dp</dimen>
+    <dimen name="cityTextSize">18dp</dimen>
+    <dimen name="defaultPadding">8dp</dimen>
+    <dimen name="defaultMargin">8dp</dimen>
+    <dimen name="defaultMarginWide">16dp</dimen>
+    <dimen name="regionTextSize">20dp</dimen>
+
+    <dimen name="weatherIconSize">150dp</dimen>
+    <dimen name="tempSize">50dp</dimen>
+    <dimen name="weatherRowSize">72dp</dimen>
+
+    <dimen name="skyTextSize">40sp</dimen>
+    <dimen name="dividerHeight">3dp</dimen>
+</resources>
